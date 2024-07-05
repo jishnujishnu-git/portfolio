@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:   "Rajdhani", sans-serif;
+}
+
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
+    color: rgb(168, 72, 72);
+    font-weight: bolder;
+    margin: 20px;
+    text-decoration: none;
+    
+}
+
+video{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    color: black;
+    font-size: large;
+}
+
+h1:hover{
+    text-shadow: 2px 4px 6px gainsboro;
+    text-decoration: bisque;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+#home::before{
+    
+    
+    content: "";
+    background-image:url(https://cdn.sanity.io/images/tlr8oxjg/production/d2f16531bde974464ad7ab74dc335790dbdebffa-1192x668.png?w=3840&q=80&fit=clip&auto=format);
+    background-size: cover;
+    height: 100%;
+    
+}
+.main{
+    display: flex;
+    position: absolute;
+    color: rgb(11, 11, 10);
+    border: 4px ridge cyan ;
+    border-radius: 3px;
+    padding: 2px;
+    margin-top: 40%;
+    margin-left: 10%;
+
+}
+
+.main:hover{
+    scale: 1.10;
+    background-color: rgb(248, 245, 242);
+}
+
+.pic{
+    display: flex;
+    
+}
+.pic img{
+    width: 400px;
+
+}
+
+.pic h4{
+    text-align: center;
+    color: black;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.intro p{
+    border: 4px ridge greenyellow;
+    
+    
+}
+
+
+
+
